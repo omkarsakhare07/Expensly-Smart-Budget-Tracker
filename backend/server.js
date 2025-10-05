@@ -4,17 +4,19 @@ require('dotenv').config({ path: '../.env' });
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-//
-console.log('📍 MONGODB_URI:', process.env.MONGODB_URI);
-//
+
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: ['https://expensly-budget-tracker.vercel.app', 'http://localhost:3000'],
+  credentials: true
+}));
 app.use(express.json());
 
 // MongoDB Connection
 // const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/expensly';
+// const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://expensly_admin:expensly123@cluster0.t1nfshd.mongodb.net/expensly?retryWrites=true&w=majority';
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://expensly_admin:expensly123@cluster0.t1nfshd.mongodb.net/expensly?retryWrites=true&w=majority';
 
 mongoose.connect(MONGODB_URI)
