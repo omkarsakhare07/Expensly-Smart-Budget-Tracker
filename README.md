@@ -278,13 +278,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - LinkedIn: [www.linkedin.com/in/prajwal1320](https://www.linkedin.com/in/prajwal1320)
 - GitHub: [prajwal1320](https://github.com/prajwal1320)
 
-## 🙏 Acknowledgments
-
-- Chart.js for beautiful data visualizations
-- Font Awesome for icons
-- MongoDB for flexible data storage
-- Express.js community for excellent documentation
-
----
 
 **Built with vanilla JavaScript, HTML5, CSS3, Node.js, Express, and MongoDB**
