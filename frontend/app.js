@@ -1,7 +1,7 @@
 // frontend/app.js - Updated to use MongoDB backend
 
 // API Configuration
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://expensly-backend.onrender.com';
 let authToken = localStorage.getItem('expensly_token');
 
 // Application State
