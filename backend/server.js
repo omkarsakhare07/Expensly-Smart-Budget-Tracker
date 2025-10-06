@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['https://expensly-budget-tracker.vercel.app', 'http://localhost:3000'],
+  origin: ['https://expensly-smart-budget-tracker-7qfbli18l.vercel.app', 'http://localhost:3000'],
   credentials: true
 }));
 app.use(express.json());
