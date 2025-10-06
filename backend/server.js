@@ -8,8 +8,24 @@ const cors = require('cors');
 const app = express();
 
 // Middleware
+// CORS Configuration - Allow all Vercel deployments
 app.use(cors({
-  origin: ['https://expensly-smart-budget-tracker-7qfbli18l.vercel.app', 'http://localhost:3000'],
+  origin: function(origin, callback) {
+    // Allow requests with no origin
+    if (!origin) return callback(null, true);
+    
+    // Allow localhost
+    if (origin.includes('localhost')) {
+      return callback(null, true);
+    }
+    
+    // Allow all vercel.app URLs
+    if (origin.endsWith('.vercel.app')) {
+      return callback(null, true);
+    }
+    
+    callback(new Error('Not allowed by CORS'));
+  },
   credentials: true
 }));
 app.use(express.json());
