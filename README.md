@@ -276,7 +276,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **Expensly Team**
 
 - LinkedIn: [www.linkedin.com/in/prajwal1320](https://www.linkedin.com/in/prajwal1320)
-- GitHub: [prajwal1320](https://github.com/prajwal1320)
+- GitHub: [Prajwal7214](https://github.com/Prajwal7214)
 
 
 **Built with vanilla JavaScript, HTML5, CSS3, Node.js, Express, and MongoDB**
