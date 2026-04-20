@@ -1,5 +1,17 @@
 # Expensly - Smart Budget Tracker
 
+## ⚠️ Project Note
+
+This application was originally developed by my friend.
+DevOps Implementation: Omkar Sakhare
+
+I have used this project to implement DevOps practices such as:
+- Docker containerization
+- AWS EC2 deployment
+- CI/CD pipeline using Jenkins
+- Kubernetes
+- Monitoring 
+
 A full-stack personal finance management application built with vanilla JavaScript, HTML5, CSS3 (frontend) and Node.js, Express, MongoDB (backend).
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
