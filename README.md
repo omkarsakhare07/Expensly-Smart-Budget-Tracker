@@ -11,7 +11,7 @@ I have used this project to implement DevOps practices such as:
 - CI/CD pipeline using Jenkins
 - Kubernetes
 - Monitoring 
-_ Teraform
+
 
 
 A full-stack personal finance management application built with vanilla JavaScript, HTML5, CSS3 (frontend) and Node.js, Express, MongoDB (backend).
